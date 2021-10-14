@@ -19,6 +19,7 @@
 8. react-icons
 9. react-modal
 10. date-fns
+11. pdfmake
 
 ## Execução 🚀
 

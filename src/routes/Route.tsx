@@ -19,7 +19,7 @@ export function ReactRoute({ isPrivate = false, component: Component, ...rest }:
           <Component />
         ) : (
           <Redirect to={{
-            pathname: isPrivate ? '/' : '/home',
+            pathname: isPrivate ? '/session' : '/',
             state: { from: location }
           }} />
         )

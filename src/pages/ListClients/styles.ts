@@ -1,6 +1,18 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
+  background: var(--gray-100);
+  height: 100vh;
+  width: 100vw;
+`
+
+export const Container = styled.div`
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+`
+
+export const WrapperContent = styled.div`
   margin: 0 3rem;
   width: 600px;
   display: flex;
@@ -15,7 +27,7 @@ export const ContainerTitleName = styled.div`
   width: 300px;
 `
 
-export const ContainerTitleContact = styled.div`
+export const ContainerTitleCity = styled.div`
   width: 200px;
 `
 
@@ -28,24 +40,9 @@ export const Title = styled.span`
 
 export const Content = styled.div`
   margin-top: 2rem;
-  width: 700px;
-  display: flex;
-  flex-direction: column;
-`
-
-export const ContentTextInfo = styled.div`
-  border-left: 3.5px solid var(--blue-dark);
-  margin-top: 2rem;
   width: 600px;
   display: flex;
   flex-direction: column;
-`
-export const TextInfo = styled.span`
-  color: var(--gray-700);
-  font-family: 'Inter', sans-serif;
-  font-size: 1.25rem;
-  font-weight: 500;
-  margin-left: 1rem;
 `
 
 export const ClientDetails = styled.div`
@@ -61,7 +58,7 @@ export const ContainerTextName = styled.div`
   overflow: hidden;
 `
 
-export const ContainerTextContact = styled.div`
+export const ContainerTextCity = styled.div`
   width: 200px;
 `
 
@@ -87,4 +84,17 @@ export const ButtonDelete = styled.button`
     width: 2rem;
     height: 2rem;
   }
+`
+
+export const ContentTextInfo = styled.div`
+  border-left: 3.5px solid var(--blue-dark);
+  margin-top: 2rem;
+`
+
+export const TextInfo = styled.span`
+  color: var(--gray-700);
+  font-family: 'Inter', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-left: 1rem;
 `

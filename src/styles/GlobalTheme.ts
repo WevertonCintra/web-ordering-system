@@ -14,6 +14,7 @@ export const GlobalTheme = createGlobalStyle`
     --gray-200: #e9ecef;
     --gray-100: #f8f9fa;
 
+    --blue-dark-2: #023e8a;
     --blue-dark: #0096C7;
     --blue: #00B4D8;
     --red: #FF1717;

@@ -1,6 +1,18 @@
 import styled from 'styled-components'
 
-export const Wrapper = styled.fieldset`
+export const Wrapper = styled.div`
+  background: var(--gray-100);
+  height: 100vh;
+  width: 100vw;
+`
+
+export const Container = styled.div`
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+`
+
+export const Fieldset = styled.fieldset`
   margin: 0 3rem;
 `
 
@@ -16,7 +28,7 @@ export const Form = styled.form`
   padding: 3rem 0 0 2rem;
 `
 
-export const Container = styled.div`
+export const WrapperContent = styled.div`
   height: 7rem;
   display: flex;
 `
@@ -37,7 +49,7 @@ export const Label = styled.label`
   font-weight: 600;
 `
 
-export const InputName = styled.input`
+export const Input = styled.input`
   color: var(--gray-700);
   border: 1px solid var(--gray-700);
   border-radius: 0.5rem;
@@ -53,48 +65,6 @@ export const InputName = styled.input`
   &:focus {
     border: 1px solid var(--blue-dark);
   }
-`
-
-export const InputNumber = styled.input`
-  color: var(--gray-700);
-  border: 1px solid var(--gray-700);
-  border-radius: 0.5rem;
-  margin-top: 0.5rem;
-  padding: 1rem;
-  height: 2.5rem;
-  width: 180px;
-  font-family: 'Inter', sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  outline: 0;
-
-  &:focus {
-    border: 1px solid var(--blue-dark);
-  }
-`
-
-export const Select = styled.select`
-  background: 0;
-  border: 1px solid var(--gray-700);
-  border-radius: 0.5rem;
-  margin-top: 0.5rem;
-  padding: 0 0.5rem;
-  height: 2.5rem;
-  width: 220px;
-  font-family: 'Inter', sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  outline: 0;
-
-  &:focus {
-    border: 1px solid var(--blue-dark);
-  }
-`
-
-export const Option = styled.option`
-  font-family: 'Inter', sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
 `
 
 export const Button = styled.button`
